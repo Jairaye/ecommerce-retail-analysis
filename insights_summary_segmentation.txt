@@ -1,0 +1,43 @@
+CUSTOMER SEGMENTATION & A/B TESTING ANALYSIS
+============================================================
+
+
+CUSTOMER BASE OVERVIEW:
+   - Total Customers Analyzed: 5,000
+   - Customer Segments Identified: 5 (RFM-based) + 4 (Clustering-based)
+   - Average Customer Lifetime Value: $813.56
+   - Total Customer Value in Database: $4,067,823.45
+
+TOP SEGMENTS:
+   - Champions: 941 customers (18.8%)
+     > Average Value: $358.16
+     > Average CLV: $798.11
+     
+   - At Risk: 910 customers (18.2%)
+     > Require immediate win-back campaign
+     > Potential revenue at risk: $74,802.00
+
+A/B TEST RESULTS:
+   - Test: 10% Discount vs 15% Discount
+   - Winner: 10% Discount
+   - Incremental Impact: -0.8% net revenue change
+   - Statistical Significance: No (p=0.9463)
+
+CAMPAIGN RECOMMENDATIONS:
+   - Total Expected Revenue: $140,590.75
+   - Total Campaign Investment: $25,000.00
+   - Expected Profit: $115,590.75
+   - Overall Campaign ROI: 5.62x
+
+TOP 3 PRIORITY ACTIONS:
+   1. Launch VIP program for 941 Champions
+      Expected return: 8.5x ROI
+      
+   2. Deploy win-back campaign for 910 At-Risk customers
+      Protect $74,802.00 in potential revenue
+      
+   3. Implement 10% discount strategy based on A/B test results
+      Expected annual impact: $6,086.10
+
+
+Analysis Date: 2025-11-14 15:55
