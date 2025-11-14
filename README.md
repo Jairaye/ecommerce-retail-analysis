@@ -1,244 +1,278 @@
 # E-Commerce Retail Analytics Project
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Pandas](https://img.shields.io/badge/pandas-Data_Analysis-yellow.svg)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green.svg)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-teal.svg)
+![Status](https://img.shields.io/badge/Project-Complete-brightgreen.svg)
+
+---
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Business Context](#business-context)
+3. [Key Findings](#key-findings)
+    - [Marketing Efficiency Insights](#marketing-efficiency-insights)
+    - [Regional Performance Gaps](#regional-performance-gaps)
+    - [Customer Behavior Insights](#customer-behavior-insights)
+4. [Technical Skills Demonstrated](#technical-skills-demonstrated)
+5. [Project Structure](#project-structure)
+6. [Sample Visualizations](#sample-visualizations)
+7. [Business Impact & Recommendations](#business-impact--recommendations)
+8. [Key Learnings](#key-learnings)
+9. [About Me](#about-me)
+10. [License](#license)
+
+
 **Comprehensive retail analytics demonstrating marketing efficiency measurement, customer segmentation, and performance optimization**
 
----
-
-## Project Overview
-
-This project analyzes retail e-commerce data to identify revenue optimization opportunities, measure marketing return on investment (ROAS), and provide actionable insights for strategic decision-making. The analysis focuses on category performance, regional trends, customer behavior, and marketing efficiency—key metrics for commerce analytics teams.
-
-**Key Analysis Areas:**
-- Marketing efficiency & ROAS measurement by category
-- Regional performance gap analysis
-- Customer lifetime value & retention metrics
-- Device usage & conversion optimization
-- Revenue forecasting & trend analysis
+This project analyzes a full e-commerce retail dataset to uncover opportunities in marketing efficiency, customer value, regional performance, and revenue optimization. It mirrors the analytical responsibilities of a Commerce Insights & Analytics role, with a strong focus on ROAS measurement, customer segmentation, A/B testing, and actionable insights.
 
 ---
 
-## Business Context
+# Project Overview
 
-This analysis simulates the work of a **Commerce Insights & Analytics** role, where the goal is to:
-- Track media effectiveness and ROAS across product categories
-- Identify correlations between marketing investment and sales performance
-- Support campaign measurement and test-and-learn programs
-- Translate data into clear, actionable recommendations
-- Optimize marketing spend allocation for maximum ROI
+This analysis evaluates key retail performance drivers across:
 
----
+- Marketing efficiency and ROAS  
+- Regional revenue gaps  
+- Customer segmentation and lifetime value  
+- Device usage and conversion behavior  
+- A/B test evaluation and discount strategy  
+- Seasonality, trends, and forecasting  
 
-## Key Findings
-
-### Marketing Efficiency Insights
-
-**Overall Performance:**
-- Total Revenue: $1.44M
-- Total Marketing Spend: $273.7K
-- **Overall ROAS: 5.28x** (28% above break-even)
-
-**Category Performance:**
-- **Beauty**: 30.5x ROAS (lowest marketing spend, highest efficiency)
-- **Electronics**: 4.1x ROAS (48% of revenue, highest marketing investment)
-- **Sports**: 4.1x ROAS (high competition category)
-
-**Recommendation:** Reallocate 15-20% of Electronics marketing budget to Beauty and Fashion categories to improve overall portfolio ROAS.
+The goal is to illustrate how data can inform marketing allocation, campaign design, and customer growth strategy.
 
 ---
 
-### Regional Performance Gaps
+# Business Context
 
-**Top Performers:**
-- New York: +24% above average revenue per customer
-- Chicago: +19% above average
-- Houston: +12% above average
+The project simulates real-world expectations for a Commerce Insights & Analytics team:
 
-**Underperformers:**
-- **Dallas: -40% below average** (Critical issue)
-- Philadelphia: -29% below average
-- Los Angeles: -2% below average
-
-**Root Cause Hypotheses:**
-1. Logistics/delivery challenges
-2. Lower brand awareness
-3. Competitive pressure from local retailers
-4. Pricing misalignment with regional demographics
-
-**Recommendation:** Conduct deep-dive analysis on Dallas market including delivery times, customer satisfaction scores, and competitive benchmarking.
+- Tracking media effectiveness and ROAS  
+- Analyzing campaign results and lift metrics  
+- Identifying category-level and region-level performance patterns  
+- Supporting test-and-learn programs through A/B evaluation  
+- Translating complex data into actionable insights  
+- Optimizing marketing spend for maximum profitability  
 
 ---
 
-### Customer Behavior Insights
+# Key Findings
 
-**Customer Retention Value:**
-- Returning customers spend **83% more** per transaction ($89.51 vs $48.91)
-- Returning customers represent **88% of transactions**
-- Customer retention is a key revenue driver
+## Marketing Efficiency
 
-**Device Performance:**
-- Mobile: 56% of transactions, $79.23 avg transaction
-- Desktop: 34% of transactions, **$95.34 avg transaction (+20%)**
-- Tablet: 10% of transactions, $78.93 avg transaction
+- Total Revenue: $1.44M  
+- Total Marketing Spend: $273.7K  
+- Overall ROAS: 5.28x  
+- Beauty delivers **30.5x ROAS**  
+- Electronics absorbs **48% of marketing spend** but returns only **4.1x ROAS**
 
-**Recommendation:** 
-1. Implement retention program targeting first-time buyers
-2. Optimize mobile checkout experience to increase AOV
-3. Test desktop-specific promotions for higher-value items
+**Recommendation:** Reallocate 15–20% of Electronics marketing budget to Beauty and Fashion to increase total portfolio ROAS.
 
 ---
 
-## Technical Skills Demonstrated
+## Regional Performance
 
-### **Languages & Tools:**
-- **Python**: pandas, NumPy, matplotlib, seaborn
-- **Jupyter Notebook**: Exploratory data analysis & visualization
-- **Data Manipulation**: ETL, data cleaning, feature engineering
-- **Statistical Analysis**: Correlation analysis, trend identification
+Top-performing revenue per customer:
+- New York (+24% above average)  
+- Chicago (+19%)  
+- Houston (+12%)  
 
-### **Analytics Capabilities:**
-- Marketing measurement (ROAS, CAC, LTV)
-- Customer segmentation & cohort analysis
-- Time series analysis & forecasting
-- A/B test design and measurement
-- Business intelligence reporting
+Underperformers:
+- Dallas (-40%)  
+- Philadelphia (-29%)
 
-### **Visualization:**
-- Multi-panel dashboards
-- Executive summary reports
-- Interactive charts with actionable insights
-- Professional presentation-ready graphics
+**Recommendation:** Investigate logistics, pricing, and competitive pressure in the Dallas region.
 
 ---
 
-## Project Structure
+## Customer Behavior
+
+- Returning customers spend 83% more per transaction  
+- Returning customers represent 88% of total orders  
+- Desktop AOV is 20% higher than mobile  
+- Mobile generates 56% of transactions  
+
+**Recommendations:**
+1. Launch a retention program for first-time buyers  
+2. Improve mobile checkout experience  
+3. Test higher-value desktop product promotions  
+
+---
+
+# Technical Skills Demonstrated
+
+## Languages and Tools
+- Python (pandas, NumPy, matplotlib, seaborn)  
+- Jupyter Notebook  
+- ETL, data cleaning, data transformation  
+- Statistical analysis and A/B testing  
+- Visualization and storytelling  
+
+## Analytics Capabilities
+- ROAS modeling and marketing measurement  
+- RFM segmentation and K-means clustering  
+- Customer lifetime value (CLV)  
+- Time series trend analysis  
+- Cohort and customer behavior analysis  
+- Campaign evaluation and discount modeling  
+
+---
+
+# Project Structure
 
 ```
 ecommerce-retail-analytics/
+├── charts/                       # All generated visualizations
 ├── data/
 │   ├── raw/                      # Original dataset
 │   └── processed/                # Cleaned and transformed data
 ├── notebooks/
-│   ├── 01_data_exploration.ipynb # Initial analysis & insights
-│   ├── 02_predictive_modeling.ipynb  # Customer segmentation & forecasting
-│   └── 03_ab_test_analysis.ipynb     # Marketing campaign testing
-├── visualizations/
-│   ├── category_performance.png
-│   ├── regional_performance.png
-│   ├── marketing_efficiency.png
-│   ├── customer_segmentation.png
-│   ├── time_series_analysis.png
-│   └── executive_summary.png
-├── src/
-│   └── utils.py                  # Helper functions
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_predictive_modeling.ipynb
+│   └── 03_ab_test_analysis.ipynb
+├── scripts/
+│   └── utils.py
 └── README.md
 ```
 
 ---
 
-## How to Run This Project
+# Sample Visualizations
 
-### Prerequisites
-```bash
-Python 3.8+
-pandas
-numpy
-matplotlib
-seaborn
-jupyter
-```
-
-### Installation
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/ecommerce-retail-analytics.git
-
-# Navigate to project directory
-cd ecommerce-retail-analytics
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch Jupyter Notebook
-jupyter notebook
-```
-
-### Run Analysis
-Open `notebooks/01_data_exploration.ipynb` and run all cells to reproduce the analysis.
+Below is a curated set of dashboards and charts produced during the analysis.
 
 ---
 
-## Sample Visualizations
+## A/B Test and Campaign Performance
 
-### Marketing Efficiency Dashboard
-![Marketing Efficiency](visualizations/marketing_efficiency.png)
-
-*Analysis of ROAS by category, showing Beauty and Fashion as high-efficiency opportunities*
-
-### Regional Performance
-![Regional Performance](visualizations/regional_performance.png)
-
-*Revenue comparison across major cities, highlighting Dallas underperformance*
-
-### Customer Segmentation
-![Customer Segmentation](visualizations/customer_segmentation.png)
-
-*Breakdown of customer types and device usage patterns*
+<table>
+<tr>
+<td><img src="charts/ab_test_results.png" width="420"></td>
+<td><img src="charts/campaign_recommendations.png" width="420"></td>
+</tr>
+</table>
 
 ---
 
-## Business Impact & Recommendations
+## Marketing Efficiency and ROAS
 
-### Immediate Actions (0-30 days):
-1. **Reallocate Marketing Budget**: Shift $40K from Electronics to Beauty/Fashion
-   - Expected impact: +$200K revenue, +15% portfolio ROAS
-2. **Dallas Market Investigation**: Deploy survey + logistics audit
-   - Goal: Identify root cause of 40% underperformance
-3. **Mobile Optimization Sprint**: A/B test simplified checkout flow
-   - Target: Increase mobile AOV by 10% ($79 → $87)
-
-### Strategic Initiatives (30-90 days):
-1. **Retention Program Launch**: Email campaign targeting first-time buyers
-   - Target: Convert 20% to returning customers (+$450K annual revenue)
-2. **Desktop Experience Enhancement**: Premium product recommendations
-   - Leverage 20% higher AOV on desktop traffic
-3. **Regional Marketing Customization**: Localized campaigns for underperforming cities
+<table>
+<tr>
+<td><img src="charts/marketing_efficiency.png" width="420"></td>
+<td><img src="charts/monthly_trends.png" width="420"></td>
+</tr>
+</table>
 
 ---
 
-## Key Learnings
+## Regional and Geographic Insights
 
-1. **ROAS varies dramatically by category** - Not all revenue is created equal when accounting for acquisition cost
-2. **Geographic performance gaps can be massive** - Dallas underperforms by 40%, indicating systemic issues beyond normal variance
-3. **Customer retention drives profitability** - Returning customers are 83% more valuable, justifying significant retention investment
-4. **Device optimization matters** - Desktop users spend 20% more; mobile UX improvements could unlock significant revenue
+<table>
+<tr>
+<td><img src="charts/regional_performance.png" width="420"></td>
+<td><img src="charts/category_performance.png" width="420"></td>
+</tr>
+</table>
 
 ---
 
-## About Me
+## Customer Segmentation and RFM Analysis
+
+<table>
+<tr>
+<td><img src="charts/customer_segmentation.png" width="420"></td>
+<td><img src="charts/rfm_segmentation.png" width="420"></td>
+</tr>
+</table>
+
+---
+
+## Customer Lifetime Value (CLV)
+
+<table>
+<tr>
+<td><img src="charts/customer_lifetime_value.png" width="420"></td>
+<td><img src="charts/kmeans_clustering.png" width="420"></td>
+</tr>
+</table>
+
+---
+
+## Category and Product Insights
+
+<table>
+<tr>
+<td><img src="charts/category_performance.png" width="420"></td>
+<td><img src="charts/marketing_efficiency.png" width="420"></td>
+</tr>
+</table>
+
+---
+
+## Device and Customer-Type Behavior
+
+<table>
+<tr>
+<td><img src="charts/device_usage.png" width="420"></td>
+<td><img src="charts/customer_type.png" width="420"></td>
+</tr>
+</table>
+
+---
+
+## Customer Journey Patterns (Recency, Frequency, Value)
+
+<table>
+<tr>
+<td><img src="charts/customer_recency_frequency.png" width="420"></td>
+<td><img src="charts/customer_value_distribution.png" width="420"></td>
+</tr>
+</table>
+
+---
+
+# Business Impact Recommendations
+
+## Immediate Actions (0–30 Days)
+1. Shift $40K from Electronics to Beauty and Fashion  
+   Expected impact: +$200K revenue  
+2. Investigate Dallas regional underperformance  
+3. Conduct mobile checkout A/B testing  
+
+## Strategic Initiatives (30–90 Days)
+1. Launch retention workflow targeting first-time buyers  
+2. Enhance desktop product recommendation engine  
+3. Develop localized marketing strategies for underperforming cities  
+
+---
+
+# Key Learnings
+
+1. ROAS varies significantly by category and should guide budget allocation  
+2. Regional performance gaps can reveal underlying operational issues  
+3. Customer retention drives disproportionately high value  
+4. Device optimization has measurable revenue impact  
+5. Segmentation enables targeted and efficient marketing  
+
+---
+
+# About Me
 
 **Joshua Adams**  
 Business Intelligence Analyst | Python | SQL | Tableau
 
-I specialize in translating complex data into actionable business insights. My background spans procurement analytics, pricing optimization, and marketing measurement, but I've also done supply chain optimization, sports insights, and statistical inquiries to prove or disprove memes. I'm passionate about using data to drive strategic decision-making and improve ROI.
+I specialize in translating complex data into clear business insights. My experience spans procurement analytics, pricing optimization, customer insights, and marketing measurement. I focus on producing accurate reporting, performance tracking, and ROI-driven recommendations.
 
-Contact: [ada.jos@outlook.com](mailto:ada.jos@outlook.com)  
-LinkedIn: [LinkedIn](https://www.linkedin.com/in/jradams11/)  
-GitHub: [GitHub](https://github.com/jairaye)
+- Email: ada.jos@outlook.com  
+- LinkedIn: https://www.linkedin.com/in/jradams11  
+- GitHub: https://github.com/jairaye  
 
 ---
 
-## License
+# License
 
 This project is for portfolio demonstration purposes.
 
 ---
-
-## Acknowledgments
-
-- Dataset: Transformed from Turkish e-commerce data to US retail context
-- Tools: Python data science ecosystem (pandas, matplotlib, seaborn)
-- Inspiration: Real-world commerce analytics use cases
-
----
-
-**If you found this analysis valuable, please star this repository!**
