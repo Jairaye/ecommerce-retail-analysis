@@ -1,0 +1,10 @@
+E-COMMERCE RETAIL ANALYSIS - KEY INSIGHTS
+============================================================
+
+1. Electronics drives 48.1% of revenue ($695,307.51)
+2. Categories with <10% discount rates: Electronics, Home & Garden, Sports, Fashion, Toys, Beauty, Food, Books (higher margin opportunity)
+3. Dallas underperforms by 40.4% vs. average (investigate root cause)
+4. Returning customers spend 83.0% more per transaction (focus on retention)
+5. 56.0% of transactions on mobile (optimize mobile experience)
+
+Analysis Date: 2025-11-14 12:58
