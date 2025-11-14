@@ -141,6 +141,8 @@ ecommerce-retail-analytics/
 
 # Sample Visualizations
 
+# Sample Visualizations
+
 Below is a curated set of dashboards and charts produced during the analysis.
 
 ---
@@ -167,7 +169,7 @@ Below is a curated set of dashboards and charts produced during the analysis.
 
 ---
 
-## Regional and Geographic Insights
+## Regional and Category Insights
 
 <table>
 <tr>
@@ -189,7 +191,7 @@ Below is a curated set of dashboards and charts produced during the analysis.
 
 ---
 
-## Customer Lifetime Value (CLV)
+## Customer Lifetime Value and K-Means Clustering
 
 <table>
 <tr>
@@ -200,38 +202,6 @@ Below is a curated set of dashboards and charts produced during the analysis.
 
 ---
 
-## Category and Product Insights
-
-<table>
-<tr>
-<td><img src="charts/category_performance.png" width="420"></td>
-<td><img src="charts/marketing_efficiency.png" width="420"></td>
-</tr>
-</table>
-
----
-
-## Device and Customer-Type Behavior
-
-<table>
-<tr>
-<td><img src="charts/device_usage.png" width="420"></td>
-<td><img src="charts/customer_type.png" width="420"></td>
-</tr>
-</table>
-
----
-
-## Customer Journey Patterns (Recency, Frequency, Value)
-
-<table>
-<tr>
-<td><img src="charts/customer_recency_frequency.png" width="420"></td>
-<td><img src="charts/customer_value_distribution.png" width="420"></td>
-</tr>
-</table>
-
----
 
 # Business Impact Recommendations
 
